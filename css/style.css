@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    background-color:rgb(236, 138, 236);
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li{
+    background-color: rgb(13, 194, 194);
+    padding: 0.5rem;
+    list-style: none;
+    margin: 0.5rem;
+    
+}
+
+p{
+    text-align: center;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+section{
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 2rem;
+    width: 60%;
+    margin: auto;
+}

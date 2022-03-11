@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="horadodia.html">Hora do dia</a></li>
+                <li><a href="verificaridade.html">Verificador de Idade</a></li>
+                <li><a href="vamoscontar.html">Vamos contar!</a></li>
+                <li><a href="tabuada.html">Tabuada</a></li>
+                <li><a href="analisador.html">Analisador de números</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <p>Digite um número (entre 1 a 100)</p>
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br> <select name="flista" id="flista" size="9"></select>
+            <br><input id="botao" type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="result">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Maria Paula Flores</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
